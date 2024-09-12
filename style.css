@@ -1,0 +1,45 @@
+body {
+    color: mediumpurple;
+    background: peachpuff;
+    margin: 20px;
+    font-family: "Comfortaa", sans-serif;
+    margin-bottom: 100px;;
+}
+
+header {
+    border-bottom: solid 1px rgb(112, 69, 203);
+    padding: 20px;
+    font-size: 32px;
+}
+
+
+.chamada {
+    background: hsl(28.29deg 100% 79.56% / 79%);
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 17px;
+}
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 3px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
